@@ -5,12 +5,14 @@ var i = 0;
 var it = 0;
 var timeContact = 0;
 // Text Integration \\
-var gitHub = "github";
-var twitter = "twitter";
-var email = "email"
-var myName = "Samuel Drew";
-var myDetails = "computer science student eagar to learn"
-var irllocation = "located brisbane, australia"
+var pageTexts = [
+    "github",
+    "twitter",
+    "email",
+    "Samuel Drew",
+    "comptuer science student, eagar to learn!",
+    "located brisbane, australia."
+]
 // Element IDs \\
 var na = document.getElementById("displayName");
 var bd = document.getElementById("basicDetails");
@@ -21,19 +23,19 @@ var ld = document.getElementById("locationDetails");
 // Interval Fucntions \\
 var expandName = setInterval(function() {
     tP = tP + 1;
-    na.innerHTML = myName.slice(0, tP);
+    na.innerHTML = pageTexts[3].slice(0, tP);
 }, 200);
 var expandDetails = setInterval(function() {
     tD = tD + 1;
-    bd.innerHTML = myDetails.slice(0, tD)
+    bd.innerHTML = pageTexts[4].slice(0, tD)
 }, 60)
 var expandLocation = setInterval(function() {
     it = it + 1;
-    ld.innerHTML = irllocation.slice(0,it);
+    ld.innerHTML = pageTexts[5].slice(0,it);
 }, 90);
 var expandContact = setInterval(function() {
     i = i + 1;
-    tl.innerHTML = twitter.slice(0, i);
-    gl.innerHTML = gitHub.slice(0, i);
-    el.innerHTML = email.slice(0, i);
+    tl.innerHTML = pageTexts[1].slice(0, i);
+    gl.innerHTML = pageTexts[0].slice(0, i);
+    el.innerHTML = pageTexts[2].slice(0, i);
 }, 300)
