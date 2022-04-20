@@ -20,8 +20,17 @@ var gl = document.getElementById("GitHubLink");
 var tl = document.getElementById("TwitterLink");
 var el = document.getElementById("EmailLink");
 var ld = document.getElementById("locationDetails");
-// Interval Fucntions \\
-var expandName = setInterval(function() {tP = tP + 1;na.innerHTML = pageTexts[3].slice(0, tP);}, 200);
-var expandDetails = setInterval(function() {tD = tD + 1;bd.innerHTML = pageTexts[4].slice(0, tD)}, 60)
-var expandLocation = setInterval(function() {it = it + 1;ld.innerHTML = pageTexts[5].slice(0,it);}, 90);
-var expandContact = setInterval(function() {i = i + 1;tl.innerHTML = pageTexts[1].slice(0, i);gl.innerHTML = pageTexts[0].slice(0, i);el.innerHTML = pageTexts[2].slice(0, i);}, 300)
+// Write Text \\
+function writeText(iterator, element, text, speed) {
+    setInterval(function() {
+        iterator = iterator + 1;
+        element.innerHTML = text.slice(0, iterator);
+    }, speed);
+};
+// Our function calls \\
+writeText(it, ld, pageTexts[5], 90);
+writeText(tD, bd, pageTexts[4], 60);
+writeText(i, tl, pageTexts[1], 300);
+writeText(i, gl, pageTexts[0], 300);
+writeText(i, el, pageTexts[2], 300);
+writeText(tP, na, pageTexts[3], 200);
