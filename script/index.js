@@ -10,7 +10,7 @@ var pageTexts = [
     "twitter",
     "email",
     "Samuel Drew",
-    "comptuer science student, eagar to learn!",
+    "comptuer science student, eager to learn!",
     "located brisbane, australia."
 ]
 // Element IDs \\
