@@ -41,8 +41,8 @@ body {
     margin: 0;
     color: rgb(255,255,255);
     text-shadow: 2px 2px 5px #000000;
-    margin-top: 0.7em; margin-bottom: 0.7em;
-    margin-left: 3em; margin-right: 4em;
+    margin-top: 0.5em; margin-bottom: 0.5em;
+    margin-left: 0.5em; margin-right: 0.5em;
 }
 
 .nameSection h1 {
@@ -54,9 +54,10 @@ body {
 }
 
 .nameSection p {
-    text-align: left;
+    text-align: center;
     font-size: 1em;
     margin: 0;
+    margin-bottom: 0.2em;
     color: rgb(255,255,255);
     text-shadow: 2px 2px 5px #000000;
 }

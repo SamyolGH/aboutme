@@ -7,14 +7,18 @@ var twitter = "twitter";
 var email = "email"
 var myName = "Samuel Drew";
 var myDetails = "computer science student eagar to learn"
+var irllocation = "located brisbane, australia"
 var na = document.getElementById("displayName");
 var bd = document.getElementById("basicDetails");
 var gl = document.getElementById("GitHubLink");
 var tl = document.getElementById("TwitterLink");
 var el = document.getElementById("EmailLink");
+var ld = document.getElementById("locationDetails");
 var i = 0;
+var it = 0;
 na.innerHTML = "";
 bd.innerHTML = "";
+ld.innerHTML = "";
 
 var expandName = setInterval(function() {
     timePort = timePort + 1;
@@ -25,6 +29,11 @@ var expandDetails = setInterval(function() {
     timeDeet = timeDeet + 1;
     bd.innerHTML = myDetails.slice(0, timeDeet)
 }, 60)
+
+var expandLocation = setInterval(function() {
+    it = it + 1;
+    ld.innerHTML = irllocation.slice(0,it);
+}, 150);
 
 var expandContact = setInterval(function() {
     i = i + 1;
