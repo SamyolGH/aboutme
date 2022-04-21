@@ -3,7 +3,6 @@ var tP = 0;
 var tD = 0;
 var i = 0;
 var it = 0;
-var timeContact = 0;
 // Text Integration \\
 var pageTexts = [
     "github",
