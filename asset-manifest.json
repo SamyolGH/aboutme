@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/samyol.me/static/css/main.4b1f7436.css",
-    "main.js": "/samyol.me/static/js/main.1ee8872f.js",
-    "static/media/email-512.png": "/samyol.me/static/media/email-512.d1cac41a5b59abea7277.png",
-    "index.html": "/samyol.me/index.html",
-    "main.4b1f7436.css.map": "/samyol.me/static/css/main.4b1f7436.css.map",
-    "main.1ee8872f.js.map": "/samyol.me/static/js/main.1ee8872f.js.map"
+    "main.css": "/static/css/main.4b1f7436.css",
+    "main.js": "/static/js/main.3eb5dcc8.js",
+    "static/media/email-512.png": "/static/media/email-512.d1cac41a5b59abea7277.png",
+    "index.html": "/index.html",
+    "main.4b1f7436.css.map": "/static/css/main.4b1f7436.css.map",
+    "main.3eb5dcc8.js.map": "/static/js/main.3eb5dcc8.js.map"
   },
   "entrypoints": [
     "static/css/main.4b1f7436.css",
-    "static/js/main.1ee8872f.js"
+    "static/js/main.3eb5dcc8.js"
   ]
 }
